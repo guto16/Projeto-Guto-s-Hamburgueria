@@ -9,7 +9,7 @@ public class ConnectionFactory {
     public Connection getConnection(){
         try {
             return DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/regist",
-                    "gutos","548Guto?");
+                    "cliente","123guto");
         }catch(SQLException e){
             throw new RuntimeException(e);
         }
