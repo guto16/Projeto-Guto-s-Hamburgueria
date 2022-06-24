@@ -20,7 +20,7 @@ public class PainelPrincipal extends javax.swing.JFrame {
     public PainelPrincipal() {
         initComponents();
     }
-
+    
     /**
      * This method is called from within the constructor to initialize the form.
      * WARNING: Do NOT modify this code. The content of this method is always
@@ -30,6 +30,8 @@ public class PainelPrincipal extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        Confirmar = new javax.swing.JFrame();
+        confirmar = new javax.swing.JPanel();
         ColunaPrincipal = new javax.swing.JPanel();
         Logotipo = new javax.swing.JLabel();
         btPerfil = new javax.swing.JPanel();
@@ -100,7 +102,7 @@ public class PainelPrincipal extends javax.swing.JFrame {
         jpaneConfirmarPedido = new javax.swing.JPanel();
         jPanel73 = new javax.swing.JPanel();
         canvas1 = new java.awt.Canvas();
-        jButton1 = new javax.swing.JButton();
+        btConfirmarPedido = new javax.swing.JButton();
         jPanel70 = new javax.swing.JPanel();
         jPanel97 = new javax.swing.JPanel();
         jLabel10 = new javax.swing.JLabel();
@@ -128,6 +130,7 @@ public class PainelPrincipal extends javax.swing.JFrame {
         jButton2 = new javax.swing.JButton();
         jButton3 = new javax.swing.JButton();
         jPanel98 = new javax.swing.JPanel();
+        jLabel23 = new javax.swing.JLabel();
         jpaneBebidas = new javax.swing.JPanel();
         jPanel35 = new javax.swing.JPanel();
         jTextField9 = new javax.swing.JTextField();
@@ -224,6 +227,31 @@ public class PainelPrincipal extends javax.swing.JFrame {
         btSaveData = new javax.swing.JButton();
         jPanel59 = new javax.swing.JPanel();
         jLabel8 = new javax.swing.JLabel();
+
+        confirmar.setBackground(new java.awt.Color(153, 153, 153));
+        confirmar.setForeground(new java.awt.Color(204, 204, 255));
+
+        javax.swing.GroupLayout confirmarLayout = new javax.swing.GroupLayout(confirmar);
+        confirmar.setLayout(confirmarLayout);
+        confirmarLayout.setHorizontalGroup(
+            confirmarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 1176, Short.MAX_VALUE)
+        );
+        confirmarLayout.setVerticalGroup(
+            confirmarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 650, Short.MAX_VALUE)
+        );
+
+        javax.swing.GroupLayout ConfirmarLayout = new javax.swing.GroupLayout(Confirmar.getContentPane());
+        Confirmar.getContentPane().setLayout(ConfirmarLayout);
+        ConfirmarLayout.setHorizontalGroup(
+            ConfirmarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(confirmar, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+        );
+        ConfirmarLayout.setVerticalGroup(
+            ConfirmarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(confirmar, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+        );
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -1215,11 +1243,11 @@ public class PainelPrincipal extends javax.swing.JFrame {
         jPanel73.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jPanel73.setForeground(new java.awt.Color(255, 255, 255));
 
-        jButton1.setFont(new java.awt.Font("Segoe UI", 0, 43)); // NOI18N
-        jButton1.setText("CONFIRMAR");
-        jButton1.addActionListener(new java.awt.event.ActionListener() {
+        btConfirmarPedido.setFont(new java.awt.Font("Segoe UI", 0, 43)); // NOI18N
+        btConfirmarPedido.setText("CONFIRMAR");
+        btConfirmarPedido.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton1ActionPerformed(evt);
+                btConfirmarPedidoActionPerformed(evt);
             }
         });
 
@@ -1369,7 +1397,7 @@ public class PainelPrincipal extends javax.swing.JFrame {
                         .addGap(0, 0, Short.MAX_VALUE)
                         .addComponent(canvas1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(397, 397, 397))
-                    .addComponent(jButton1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(btConfirmarPedido, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addGroup(jPanel73Layout.createSequentialGroup()
                         .addComponent(jPanel70, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(0, 0, Short.MAX_VALUE)))
@@ -1381,7 +1409,7 @@ public class PainelPrincipal extends javax.swing.JFrame {
                 .addContainerGap()
                 .addComponent(jPanel70, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
-                .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 76, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(btConfirmarPedido, javax.swing.GroupLayout.PREFERRED_SIZE, 76, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(canvas1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
@@ -1443,6 +1471,11 @@ public class PainelPrincipal extends javax.swing.JFrame {
                 {null, null},
                 {null, null},
                 {null, null},
+                {null, null},
+                {null, null},
+                {null, null},
+                {null, null},
+                {null, null},
                 {null, null}
             },
             new String [] {
@@ -1452,6 +1485,7 @@ public class PainelPrincipal extends javax.swing.JFrame {
         jScrollPane1.setViewportView(jTable1);
 
         jPanel96.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        jPanel96.setForeground(new java.awt.Color(153, 153, 153));
 
         jPanel99.setBackground(new java.awt.Color(217, 95, 95));
 
@@ -1470,7 +1504,7 @@ public class PainelPrincipal extends javax.swing.JFrame {
         );
         jPanel99Layout.setVerticalGroup(
             jPanel99Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jLabel15, javax.swing.GroupLayout.DEFAULT_SIZE, 38, Short.MAX_VALUE)
+            .addComponent(jLabel15, javax.swing.GroupLayout.DEFAULT_SIZE, 40, Short.MAX_VALUE)
         );
 
         jButton2.setText("EXCLUIR AVISO");
@@ -1497,27 +1531,37 @@ public class PainelPrincipal extends javax.swing.JFrame {
                 .addComponent(jPanel99, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGroup(jPanel96Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel96Layout.createSequentialGroup()
-                        .addGap(30, 30, 30)
+                        .addGap(28, 28, 28)
                         .addComponent(jButton3, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                         .addComponent(jButton2, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel96Layout.createSequentialGroup()
-                        .addGap(24, 24, 24)
+                    .addGroup(jPanel96Layout.createSequentialGroup()
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addComponent(textArea1, javax.swing.GroupLayout.PREFERRED_SIZE, 93, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addContainerGap(31, Short.MAX_VALUE))
+                .addContainerGap(51, Short.MAX_VALUE))
         );
 
         jPanel98.setBackground(new java.awt.Color(217, 95, 95));
+
+        jLabel23.setFont(new java.awt.Font("Segoe UI", 0, 24)); // NOI18N
+        jLabel23.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel23.setText("ENTREGA");
 
         javax.swing.GroupLayout jPanel98Layout = new javax.swing.GroupLayout(jPanel98);
         jPanel98.setLayout(jPanel98Layout);
         jPanel98Layout.setHorizontalGroup(
             jPanel98Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 0, Short.MAX_VALUE)
+            .addGroup(jPanel98Layout.createSequentialGroup()
+                .addGap(19, 19, 19)
+                .addComponent(jLabel23)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         jPanel98Layout.setVerticalGroup(
             jPanel98Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 92, Short.MAX_VALUE)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel98Layout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(jLabel23)
+                .addContainerGap())
         );
 
         javax.swing.GroupLayout jPanel94Layout = new javax.swing.GroupLayout(jPanel94);
@@ -1537,15 +1581,17 @@ public class PainelPrincipal extends javax.swing.JFrame {
         jPanel94Layout.setVerticalGroup(
             jPanel94Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel94Layout.createSequentialGroup()
-                .addComponent(jPanel98, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addGroup(jPanel94Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jPanel95, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGroup(jPanel94Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                     .addGroup(jPanel94Layout.createSequentialGroup()
-                        .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 256, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(jPanel98, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 324, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(18, 18, 18)
-                        .addComponent(jPanel96, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                        .addComponent(jPanel96, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(jPanel94Layout.createSequentialGroup()
+                        .addGap(157, 157, 157)
+                        .addComponent(jPanel95, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addGap(0, 0, Short.MAX_VALUE))
         );
 
         javax.swing.GroupLayout jpaneConfirmarPedidoLayout = new javax.swing.GroupLayout(jpaneConfirmarPedido);
@@ -1568,10 +1614,10 @@ public class PainelPrincipal extends javax.swing.JFrame {
                 .addGroup(jpaneConfirmarPedidoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jPanel92, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addGroup(jpaneConfirmarPedidoLayout.createSequentialGroup()
-                        .addGroup(jpaneConfirmarPedidoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addComponent(jPanel73, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(jPanel94, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                        .addGap(0, 1783, Short.MAX_VALUE)))
+                        .addGroup(jpaneConfirmarPedidoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jPanel94, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jPanel73, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGap(0, 1786, Short.MAX_VALUE)))
                 .addContainerGap())
         );
 
@@ -2783,9 +2829,9 @@ public class PainelPrincipal extends javax.swing.JFrame {
                         .addGroup(jpanePerfilLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(jpanePerfilLayout.createSequentialGroup()
                                 .addComponent(barraNome, javax.swing.GroupLayout.PREFERRED_SIZE, 44, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(27, 27, 27)
+                                .addGap(34, 34, 34)
                                 .addComponent(barraEndereço, javax.swing.GroupLayout.PREFERRED_SIZE, 44, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 44, Short.MAX_VALUE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 34, Short.MAX_VALUE)
                                 .addComponent(barraEndereço1, javax.swing.GroupLayout.PREFERRED_SIZE, 44, javax.swing.GroupLayout.PREFERRED_SIZE))
                             .addComponent(jPanel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
                     .addGroup(jpanePerfilLayout.createSequentialGroup()
@@ -2795,7 +2841,7 @@ public class PainelPrincipal extends javax.swing.JFrame {
                 .addGroup(jpanePerfilLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(btEditarPerfil, javax.swing.GroupLayout.PREFERRED_SIZE, 56, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(btExcluirPerfil, javax.swing.GroupLayout.PREFERRED_SIZE, 56, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(130, 130, 130)
+                .addGap(127, 127, 127)
                 .addComponent(jSeparator4, javax.swing.GroupLayout.PREFERRED_SIZE, 10, javax.swing.GroupLayout.PREFERRED_SIZE))
         );
 
@@ -2823,7 +2869,7 @@ public class PainelPrincipal extends javax.swing.JFrame {
                         .addGroup(windowPerfilLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                             .addComponent(jpanePerfil, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                             .addComponent(jPanel71, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                        .addGap(0, 0, Short.MAX_VALUE)))
+                        .addGap(0, 947, Short.MAX_VALUE)))
                 .addContainerGap())
         );
         windowPerfilLayout.setVerticalGroup(
@@ -2834,7 +2880,7 @@ public class PainelPrincipal extends javax.swing.JFrame {
                 .addComponent(jpanePerfil, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(0, 0, 0)
                 .addComponent(jPanel71, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(1748, Short.MAX_VALUE))
+                .addContainerGap(1754, Short.MAX_VALUE))
         );
 
         colunahorizontal3.setBackground(new java.awt.Color(242, 53, 53));
@@ -3132,14 +3178,6 @@ public class PainelPrincipal extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_barraPesquisarActionPerformed
 
-    private void barraEndereçoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_barraEndereçoActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_barraEndereçoActionPerformed
-
-    private void barraEndereço1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_barraEndereço1ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_barraEndereço1ActionPerformed
-
     private void jTextField1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField1ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jTextField1ActionPerformed
@@ -3205,10 +3243,6 @@ public class PainelPrincipal extends javax.swing.JFrame {
       
        
     }//GEN-LAST:event_btSairMouseMoved
-
-    private void btEditarPerfilActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btEditarPerfilActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_btEditarPerfilActionPerformed
 
     private void jTextField18ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField18ActionPerformed
         // TODO add your handling code here:
@@ -3287,9 +3321,22 @@ public class PainelPrincipal extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_btPedidosMouseDragged
 
-    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+    private void btConfirmarPedidoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btConfirmarPedidoActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton1ActionPerformed
+        confirmar.setVisible(true);
+    }//GEN-LAST:event_btConfirmarPedidoActionPerformed
+
+    private void btEditarPerfilActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btEditarPerfilActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btEditarPerfilActionPerformed
+
+    private void barraEndereço1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_barraEndereço1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_barraEndereço1ActionPerformed
+
+    private void barraEndereçoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_barraEndereçoActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_barraEndereçoActionPerformed
 
     /**
      * @param args the command line arguments
@@ -3328,6 +3375,7 @@ public class PainelPrincipal extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JPanel ColunaPrincipal;
+    private javax.swing.JFrame Confirmar;
     private javax.swing.JLabel Logotipo;
     private javax.swing.JTextField barraEndereço;
     private javax.swing.JTextField barraEndereço1;
@@ -3336,6 +3384,7 @@ public class PainelPrincipal extends javax.swing.JFrame {
     private javax.swing.JButton botaoPesquisar;
     private javax.swing.JPanel btBebidas;
     private javax.swing.JPanel btCadastro;
+    private javax.swing.JButton btConfirmarPedido;
     private javax.swing.JPanel btConfirmarPedidos;
     private javax.swing.JToggleButton btEditarPedido;
     private javax.swing.JButton btEditarPerfil;
@@ -3351,8 +3400,8 @@ public class PainelPrincipal extends javax.swing.JFrame {
     private javax.swing.JPanel colunahorizontal2;
     private javax.swing.JPanel colunahorizontal3;
     private javax.swing.JPanel colunahorizontal4;
+    private javax.swing.JPanel confirmar;
     private javax.swing.Box.Filler filler1;
-    private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton2;
     private javax.swing.JButton jButton3;
     private javax.swing.JLabel jLabel1;
@@ -3370,6 +3419,7 @@ public class PainelPrincipal extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel20;
     private javax.swing.JLabel jLabel21;
     private javax.swing.JLabel jLabel22;
+    private javax.swing.JLabel jLabel23;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
