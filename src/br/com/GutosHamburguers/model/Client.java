@@ -6,7 +6,6 @@ public class Client {
     private String nameClient;
     private String address;
     private String phone;
-    private int id;
 
     public String getNameClient() {
         return nameClient;
@@ -30,14 +29,6 @@ public class Client {
 
     public void setPhone(String phone) {
         this.phone = phone;
-    }
-
-    public int getId() {
-        return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
     }
     
     

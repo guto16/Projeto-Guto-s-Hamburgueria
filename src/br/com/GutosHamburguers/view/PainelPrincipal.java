@@ -2722,11 +2722,6 @@ public class PainelPrincipal extends javax.swing.JFrame {
         barraNome.setFont(new java.awt.Font("Dialog", 0, 18)); // NOI18N
         barraNome.setForeground(new java.awt.Color(102, 102, 102));
         barraNome.setText("NOME:");
-        barraNome.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                barraNomeActionPerformed(evt);
-            }
-        });
 
         barraEndereço.setEditable(false);
         barraEndereço.setFont(new java.awt.Font("Dialog", 0, 18)); // NOI18N
@@ -3342,10 +3337,6 @@ public class PainelPrincipal extends javax.swing.JFrame {
     private void barraEndereçoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_barraEndereçoActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_barraEndereçoActionPerformed
-
-    private void barraNomeActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_barraNomeActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_barraNomeActionPerformed
 
     /**
      * @param args the command line arguments

@@ -3909,9 +3909,6 @@
                     </Property>
                     <Property name="text" type="java.lang.String" value="NOME:"/>
                   </Properties>
-                  <Events>
-                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="barraNomeActionPerformed"/>
-                  </Events>
                 </Component>
                 <Component class="javax.swing.JTextField" name="barraEndere&#xe7;o">
                   <Properties>
